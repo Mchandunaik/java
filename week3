@@ -1,0 +1,50 @@
+#week 3[a]
+  import java.util.*;
+class bsj3a{
+void bs(int a,int b)
+{
+System.out.println("add : "+(a+b));
+}
+public static void main(String[] args)
+{
+bsj3a f4 = new bsj3a();
+f4.bs(1,2);
+}
+}
+///////////////////
+
+# Week 3[b] method over loading
+  import java.util.*;
+class bs{
+public static void over(int a,int b){
+System.out.println("add : "+(a+b));
+}
+public static void over(int a,int b,int c){
+System.out.println("add:"+(a-b));
+}
+public static void main(String[] args)
+{
+over(1,3,);
+over(1,2,3);
+}
+}
+///////////////
+
+# 3[c,d] constructors and constructors over l0oading
+  import java.util.*;
+class bs{
+bs()
+{
+System.out.println("hi neo hou ma");
+}
+bs(int a){
+System.out.println("a:"+a);
+}
+public static void main(String[] args){
+bs obj = new bs();
+bs a = new bs(50);
+}
+}
+/////////////////
+
+  
