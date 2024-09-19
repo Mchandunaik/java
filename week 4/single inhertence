@@ -1,0 +1,16 @@
+import java.util.*;
+class A {
+A() {
+System.out.println("super class");
+}
+}
+class J4 extends A
+{
+J4()
+{
+System.out.println("sub class");
+}
+public static void main(String[] args){
+J4 obj = new J4();
+}
+}
