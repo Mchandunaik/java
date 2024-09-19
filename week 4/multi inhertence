@@ -1,0 +1,22 @@
+import java.util.*;
+class A{
+void a() {
+System.out.println("super class");
+}
+}
+class B extends A {
+void b() {
+System.out.println("sub class");
+}
+}
+class J41 extends B {
+void j() {
+System.out.println("sub 2 class");
+}
+public static void main(String[] args){
+J41 obj=new J41();
+obj.a(); 
+obj.b();
+obj.j();
+}
+}
