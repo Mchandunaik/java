@@ -1,0 +1,13 @@
+import java.util.*;
+class Multiplecatch {
+public static void main(String[] args) {
+        try {
+            int[] myNumbers = {1,2,3};
+            System.out.println(myNumbers[0]); // This will throw an exception
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Error: Index out of bounds.");
+        } catch (Exception e) {
+            System.out.println("Something went wrong.");
+        }
+    }
+}
