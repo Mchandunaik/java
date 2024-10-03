@@ -1,0 +1,12 @@
+import java.util.*;
+ public class Expect
+ {
+ public static void main(String[] args){
+ try {
+ int a = 10/0;
+ }
+ catch(Exception e){
+ System.out.println("can't divid by zero");
+ }
+ }
+ }
